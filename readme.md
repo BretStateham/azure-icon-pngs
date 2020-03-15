@@ -61,6 +61,7 @@ To help us convert those `*.svg` that "**Microsoft Whiteboard**" can't use to a 
   # Update the following path if you exported the icons to a folder other that "C:\Azure Icons\"
   dotnet publish -f netcoreapp2.2 -c Release -r win-x64 -o "C:\Azure Icons\SvgConsole"
   cd \Azure Icons\SvgConsole
+  ```
 
 ---
 <a name="convert"></a>
