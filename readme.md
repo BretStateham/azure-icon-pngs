@@ -48,7 +48,7 @@ To help us convert those `*.svg` that "**Microsoft Whiteboard**" can't use to a 
 1. Next, clone the [SVG.NET](https://github.com/vvvv/SVG) from [https://github.com/vvvv/SVG](https://github.com/vvvv/SVG)
 
   ```PowerShell
-  git clone https://github.com/vvvv/SVG
+  git clone "https://github.com/vvvv/SVG"
   ```
 
 1.  Now we can compile the `SvgConsole` app provided in the repo.  
@@ -60,7 +60,6 @@ To help us convert those `*.svg` that "**Microsoft Whiteboard**" can't use to a 
   cd .\Samples\SvgConsole
   # Update the following path if you exported the icons to a folder other that "C:\Azure Icons\"
   dotnet publish -f netcoreapp2.2 -c Release -r win-x64 -o "C:\Azure Icons\SvgConsole"
-  cd \Azure Icons\SvgConsole
   ```
 
 ---
@@ -69,7 +68,7 @@ To help us convert those `*.svg` that "**Microsoft Whiteboard**" can't use to a 
 
 Finally, you can run the `convertAzureIconsToPng.ps1` script from this repo.  The PowerShell script accepts parameters from the command line, but it defaults to the following values:
 
-```PowerShell
+```
 source="c:\Azure Icons\azure-icons",
 dest="c:\Azure Icons\azure-icons-pngs",
 svgconsole="C:\Azure Icons\SvgConsole\SvgConsole.exe",
@@ -84,7 +83,7 @@ The target size of `maxwidth=48` and `maxheight=48` produce icons at a size that
 1. First, clone this repo so that you can get to the `convertAzureIconsToPng.ps1` powershell script.
 
   ```PowserShell
-  git clone https://github.com/BretStateham/azure-icon-pngs
+  git clone "https://github.com/BretStateham/azure-icon-pngs"
   ```
 
 
