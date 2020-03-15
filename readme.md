@@ -14,6 +14,8 @@ The transformed `*.png` files are sized to 48x48 to make them easy to drag into 
 
 The steps aren't hard, and since the icon set isn't mine, and it is subject to change (hopefully with a bunch of awesome new icons), instead of just including them here, I'll show you how to create the `.png` versions yourself.  It isn't hard.  Just a few steps, and those are:
 
+> **Note**: If you really just want the icons, I have an [UNOFFICIAL .zip file](https://github.com/BretStateham/azure-icon-pngs/releases/download/0.0.1/azure-icons-pngs.zip) that contains the icons as PNGs in my [latest release](https://github.com/BretStateham/azure-icon-pngs/releases/latest).  
+
 1. [Downloading and extracting the "Microsoft Azure Cloud and AI Symbol / Icon Set -SVG"](#icon-set)
 1. [Cloning the SVG.NET repo and compiling `SvgConsole.exe`](#svgconsole)
 1. [Running `convertAzureIconsToPng.ps1`](#convert)
